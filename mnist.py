@@ -19,7 +19,6 @@ def predict(im):
 
     num = np.argmax(prediction)
 
-    print(prediction)
     prob = prediction[0][num]
 
     return num,prob
